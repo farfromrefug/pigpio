@@ -18,6 +18,13 @@
   "engines": {
     "node": ">=0.10.0"
   },
+  "binary": {
+    "module_name": "pigpio",
+    "module_path": "./lib/binding/{configuration}/{node_abi}-{platform}-{arch}/",
+    "remote_path": "./{module_name}/v{version}/{configuration}/",
+    "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz",
+    "host": "https://nas.aryballe.com/files/node"
+  },
   "dependencies": {
     "bindings": "~1.2.1",
     "nan": "~2.4.0"
