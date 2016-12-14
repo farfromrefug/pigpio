@@ -27,7 +27,8 @@
   },
   "dependencies": {
     "bindings": "~1.2.1",
-    "nan": "~2.4.0"
+    "nan": "~2.4.0",
+    "node-pre-gyp": "^0.6.32"
   },
   "keywords": [
     "gpio",
@@ -41,4 +42,3 @@
   "license": "MIT",
   "gypfile": true
 }
-
